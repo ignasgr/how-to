@@ -6,7 +6,7 @@ gensim==4.3.1
 google-cloud-aiplatform==1.26.0
 ibm-cloud-sdk-core==3.16.7
 ibm-watson==7.0.0
-ktrain==0.37.2
+ktrain==0.37.6
 langchain==0.0.228
 langdetect==1.0.9
 NERDA==1.0.0
