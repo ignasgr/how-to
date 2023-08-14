@@ -8,7 +8,8 @@ WORKDIR /root
 
 RUN apt-get update && apt-get install -y \
     graphviz \
-    python3-pydot
+    python3-pydot \
+    openssh-client
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt --no-cache-dir
