@@ -1,4 +1,4 @@
-FROM gcr.io/deeplearning-platform-release/pytorch-gpu.2-0.py310:m110
+FROM gcr.io/deeplearning-platform-release/pytorch-gpu.2-2.py310
 
 # needed to avoid dependency error for NERDA 
 ENV SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL True
